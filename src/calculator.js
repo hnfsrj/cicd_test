@@ -17,14 +17,9 @@ function divide(a, b) {
   return a / b;
 }
 
-
-function fail (a){
- throw new Error("uihhhh")
-}
 module.exports = {
   add,
   subtract,
   multiply,
-  fail,
   divide
 };
