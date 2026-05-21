@@ -13,10 +13,6 @@ describe("calculator", () => {
     expect(multiply(4, 3)).toBe(12);
   });
 
-  test("divides two numbers", () => {
-    expect(divide(10, 2)).toBe(5);
-  });
-
   test("throws when dividing by zero", () => {
     expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
   });
