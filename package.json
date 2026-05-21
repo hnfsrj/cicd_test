@@ -1,0 +1,21 @@
+{
+  "name": "sample-ci-cd-testing",
+  "version": "1.0.0",
+  "description": "Simple calculator with Jest unit tests and GitHub Actions CI",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "calculator",
+    "jest",
+    "github-actions",
+    "ci"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
