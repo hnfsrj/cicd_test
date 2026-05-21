@@ -1,3 +1,5 @@
-export default function calculateTax(income, taxRate = 1) {
+function calculateTax(income, taxRate = 1) {
   return income * taxRate;
 }
+
+module.exports = calculateTax;
