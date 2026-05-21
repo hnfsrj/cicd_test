@@ -1,3 +1,0 @@
-describe("calculateTax", () => {
-  it("should", () => {});
-});
